@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+  }
+  @font-face{
+
+    font-family:chupe;
+    src: url(../fonts/FalturaAnimals-7YZA.ttf)
+    
+  }
+
+  @font-face{
+
+    font-family:formfont;
+    src: url(../fonts/Signika-Bold.otf)
+    
+  }
+
+  body{
+      background-image: url(../img/1556092968_732386_1556093032_noticia_normal.jpg);
+      margin: 0;
+      background-size: 100vw 100vh;
+        background-attachment: fixed;
+      font-family: formfont;
+  }
+  
+  .formulario{
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(134, 131, 131, 0.801);
+     
+        box-shadow:0 0 20px 1px rgba(0, 0, 0, 0); 
+  border-radius: 40px;
+    }
+  
+  .formu_titu{
+  text-align: center;
+  margin-top: 10;
+  color: rgba(255, 255, 255, 8);
+  font-family: chupe;
+  font-size: 100px;
+  background: url(../img/1556092968_732386_1556093032_noticia_normal.jpg)
+ 
+  }
+  
+  .formu_input, .formu_label,.formu_input1, .formu_submit{
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+ 
+  }
+  
+  .formu_input:focus{
+      outline: 1px solid rgba(0, 0, 0);
+      box-shadow:0 0 20px 1px rgba(0, 0, 0, 0.480);
+  }
+  
+  
+  
+  .formu_input{
+      padding: 28px;
+      border: 1px solid rgba(0, 0, 0);
+      margin-bottom: 50px;
+      background: rgba(0, 0, 0, 0.018);
+  }
+  
+  .formu_label{
+      padding-left: 15px;
+      position: absolute;
+      margin-top: -85px;
+      z-index: 20;
+      color: rgb(255, 255, 255);
+      
+  }
+
+  .formu_input1{
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .tt{
+    box-shadow:0 0 20px 1px rgba(0, 0, 0);
+    background-color: rgba(160, 157, 157, 0.719);
+  
+  }

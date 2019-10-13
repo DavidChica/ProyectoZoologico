@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Visualización y actualización de estado de Zonas</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../img/zoo.png">
+</head>
+<br><br><br>
+
+<body>
+    <div id="arriba" class="container col-md-8 text-center head">
+        <div class="Display-1">Visualizacion y actualizacion de zonas</div>
+    </div>
+    <br><br>
+    <div class="letra">
+    <center>
+    <div>
+        <table class="col-md-5 table table-striped table-hover table-bordered bg-info" border="1" WIDTH="100%" id="tablazonas"></table>
+    </div>
+    <label for="BuscarZona">Ingrese el codigo de la zona que desea ver o modificar</label>
+    <input class="form-control col-md-5" type="text" id="BuscarZona">
+    <br>
+    <button class="btn btn-info" id="btnBuscarZona">Consultar</button>
+    <button class="btn btn-info" id="btnMostrarModificar">Modificar Estado</button>
+    <br><br><br>
+    <div id="Mostrar">
+        <label for="CambioEstado">Ingrese el nuevo estado al que desea cambiarlo</label>
+        <input type="text" class="form-control col-md-5" id="CambioEstado">
+        <br>
+        <button class="btn btn-info" id="btnModificarEstado">Hacer cambio</button>
+    </div>
+    <br><br>
+</center>
+</div>
+</body>
+<script type="text/javascript" src="../../includes/JQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="../../includes/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="../../includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/zonas.css">
+<script type="text/javascript" src="../js/verzonas.js"></script>
+
+</html>

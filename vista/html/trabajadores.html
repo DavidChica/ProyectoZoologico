@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Registro trabajadores</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../img/zoo.png">
+</head>
+<br><br><br>
+
+<body>
+    <div id="arriba" class="container col-md-8 text-center head">
+        <div class="Display-1">Registro de empleados</div>
+    </div>
+    <form class="formu container text-center col-md-8">
+        <div class="row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="CedulaTrabajador">Cédula de el empleado</label>
+                <input type="number" class="form-control" id="CedulaTrabajador" placeholder="Cédula">
+            </div>
+            <br><br><br>
+            <div class="form-group col-md-6">
+                <label for="CodigoTrabajador">Código del empleado</label>
+                <input type="number" class="form-control" id="CodigoTrabajador" placeholder="Código">
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="NombreTrabajador">Nombre del trabajador</label>
+                <input type="text" class="form-control" id="NombreTrabajador" placeholder="Nombre">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="ApellidoTrabajador">Apellidos del empleado</label>
+                <input type="text" class="form-control" id="ApellidoTrabajador" placeholder="Apellidos">
+            </div>
+
+        </div>
+        <div class="row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="FechaNacimientoTrabajador">Fecha de nacimiento</label>
+                <input type="date" class="form-control" id="FechaNacimientoTrabajador">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="TelefonoTrabajador">Teléfono</label>
+                <input type="number" class="form-control" id="TelefonoTrabajador" placeholder="Teléfono">
+            </div>
+        </div>
+        <br>
+        <div class="form-group text-center">
+            <label for="CodigoZona">Código de la zona donde trabajará</label>
+            <input type="number" class="form-control" id="CodigoZona" placeholder="Código de la zona">
+        </div>
+        <br>
+        <button type="button" id="btnAgregarTrabajador" class="btn btn-info">Añadir</button>
+        <br><br>
+    </form>
+
+
+</body>
+<script type="text/javascript" src="../../includes/JQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="../../includes/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="../../includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/trabajadores.css">
+<script type="text/javascript" src="../js/trabajadores.js"></script>
+
+</html>

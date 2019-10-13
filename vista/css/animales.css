@@ -1,0 +1,43 @@
+body{
+    width: 1280;
+    background: url(../img/africa-african-animal-33045.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: FuenteZoo;
+    src: url(../fonts/Signika-Bold.otf);
+}
+
+@font-face {
+    font-family: FuenteHead;
+    src: url(../fonts/FalturaAnimals-7YZA.ttf)
+}
+
+#arriba{
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background: url(../img/1556092968_732386_1556093032_noticia_normal.jpg);
+    
+}
+
+.formu{
+    border-radius: 5%;
+    font-size: 40px;
+    background: url(../img/animal-animal-photography-canine-682375.jpg);
+    margin-top: 10vh;
+    color: white;
+    font-size: 20pt;
+    -webkit-box-shadow: 0px 0px 26px 34px rgba(0,204,255,1);
+-moz-box-shadow: 0px 0px 26px 34px rgba(0,204,255,1);
+box-shadow: 0px 0px 26px 34px rgba(0,204,255,1);
+font-family: FuenteZoo;
+}
+ .head{
+     font-family: FuenteHead;
+ }

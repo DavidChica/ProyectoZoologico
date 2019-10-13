@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Registro de clientes</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../img/zoo.png">
+</head>
+
+<body>
+
+    <div class="tt">
+        <H1 class="formu_titu"> REGISTRO DE CLIENTES </H1>
+    </div>
+
+
+    <form class="formulario">
+        <div>
+        <input id="DocumentoCliente" type="number" class="formu_input">
+        <label for="DocumentoCliente" class="formu_label"> Documento de identificacion </label>
+    </div>
+    <div>
+        <input id="NombreCliente" type="text" class="formu_input">
+        <label for="NombreCliente" class="formu_label"> Nombre del cliente </label>
+    </div>
+    <div>
+        <input id="ApellidoCliente" type="text" class="formu_input">
+        <label for="ApellidoCliente" class="formu_label"> Apellidos</label>
+    </div>
+    <div>
+        <input id="EdadCliente" type="number" class="formu_input">
+        <label for="EdadCliente" class="formu_label"> Edad </label>
+    </div>
+        <div class="form-group">
+            <label for="GeneroCliente">Indique el sexo</label>
+            <br>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" name="Genero" id="GeneroCliente"
+                    value="Femenino">
+                <label for="Femenino" class="form-check-label">Femenino</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" name="Genero" id="GeneroCliente"
+                    value="Masculino">
+                <label for="Masculino" class="form-check-label">Masculino</label>
+            </div>
+        </div>
+        <div>
+            <input id="Personas" type="number" class="formu_input">
+            <label for="Personas" class="formu_label">¿Cuantas personas ingresarán a nombre suyo?</label>
+        </div>
+        <div>
+            <input id="Menores" type="number" class="formu_input">
+            <label for="Menores" class="formu_label">¿De esas personas cuantas son menores de edad?</label>
+        </div>
+
+
+        <button id="btnAgregarCliente" type="button" class="boton_formu  btn btn-outline-light btn-lg"> Aceptar
+        </button>
+        <br><br>
+        <button type="button" id="btnListaClientes" class="boton_formu btn btn-outline-light btn-lg">Ver Lista de clientes</button>
+
+        <table class="table table-striped table-bordered bg-light" border="1" WIDTH="50%" id="Lista"></table>
+
+</form>
+
+</body>
+
+<script type="text/javascript" src="../../includes/JQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="../../includes/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="../../includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/clientes.css">
+<script type="text/javascript" src="../js/clientes.js"></script>
+
+</html>

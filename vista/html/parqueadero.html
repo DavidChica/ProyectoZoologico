@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Estacionamiento de vehículos</title>
+    <link rel="icon" type="image/png" href="../img/zoo.png">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="arriba" class="container col-md-8 text-center head">
+        <div class="Display-1">Ingreso de vehículos</div>
+    </div>
+    <form class="formu container text-center col-md-6">
+        <div class="form-group">
+            <label for="MatriculaCarro">Matricula del vehículo</label>
+            <input type="text" id="MatriculaCarro" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="CedulaCliente">Cedula del dueño del vehículo</label>
+            <input type="text" id="CedulaCliente" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="HoraEntrada">Hora de Ingreso</label>
+            <input type="number" id="HoraEntrada" class="form-control">
+        </div>
+        <button type="button" id="btnAgregarCarro" class="btn btn-info">Registrar</button>
+        <br><br>
+        <button type="button" class="btn btn-info" id="btnMostrarConsulta">Consultar Tarifa</button>
+
+        <div id="Mostrar">
+            <label for="CedulaCliente2">Cedula del cliente</label>
+            <input type="number" class="form-control" id="CedulaCliente2">
+            <br>
+            <label for="HoraSalida">Hora de salida</label>
+            <input type="number" class="form-control" id="HoraSalida">
+            <br>
+            <button type="button" class="btn btn-info" id="btnCalcularTarifa">Consultar</button>
+          
+           <br><br>
+           <input class="form-control" id="Resultado" type="text" placeholder="Aquí podra ver el monto que debe pagar" readonly>
+            <br>
+
+            <button type="button" class="btn btn-info" id="btnActualizar">Pagar</button>
+        </div>
+    </form>
+
+</body>
+<script type="text/javascript" src="../../includes/JQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="../../includes/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="../../includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/parqueadero.css">
+<script type="text/javascript" src="../js/parqueadero.js"></script>
+
+</html>

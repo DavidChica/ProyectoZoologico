@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Registro Animales</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../img/zoo.png">
+</head>
+<br><br><br>
+
+<body>
+    <div id="arriba" class="container col-md-8 text-center head">
+        <div class="Display-1">Registro de Animales</div>
+    </div>
+    <form class="formu container text-center col-md-7">
+        <br><br>
+        <div class="row col-md-12">
+            <div class="form-group col-md-6">
+                <label for="CodigoAnimal">Código del animal</label>
+                <input type="number" class="form-control" id="CodigoAnimal" placeholder="Código">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="NombreAnimal">Nombre del animal</label>
+                <input type="text" class="form-control" id="NombreAnimal" placeholder="Nombre">
+            </div>
+            
+        </div>
+        <br><br>
+        <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label for="CodigoZona">Código de la zona donde estará ubicado</label>
+                    <input type="number" class="form-control" id="CodigoZona" placeholder="Código">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="NombreCientifico">Nombre científico del animal</label>
+                    <input type="text" class="form-control" id="NombreCientifico" placeholder="Nombre">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="GeneroAnimal">Género del animal</label>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="InlineRadioOptions" id="GeneroAnimal" value="Hembra">
+                    <label for="Hembra" class="form-check-label">Hembra</label>
+                </div>
+                <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="InlineRadioOptions" id="GeneroAnimal" value="Macho">
+                        <label for="Macho" class="form-check-label">Macho</label>
+                    </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="form-group col-md-6">
+                    <label for="NacimientoAnimal">Fecha de nacimiento del animal</label>
+                    <input type="date" class="form-control" id="NacimientoAnimal">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="LlegadaAnimal">Fecha de llegada del animal</label>
+                    <input type="date" class="form-control" id="LlegadaAnimal">
+                </div>
+            </div>
+    
+        <br>
+        <button type="button" id="btnAgregarAnimal" class="btn btn-info">Agregar</button>
+        <br><br>
+    </form>
+
+
+</body>
+<script type="text/javascript" src="../../includes/JQuery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="../../includes/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="../../includes/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/animales.css">
+<script type="text/javascript" src="../js/animales.js"></script>
+
+</html>
